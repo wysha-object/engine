@@ -1,14 +1,16 @@
-package engine.object.pixelCoordinate;
+package wysha.engine.object.pixelCoordinate;
 
-import engine.informationPacket.PixelCoordinateInformationPacket;
-import engine.object.GraphicalObject;
-import engine.object.PixelCoordinateObject;
+import wysha.engine.informationPacket.PixelCoordinateInformationPacket;
+import wysha.engine.object.GraphicalObject;
+import wysha.engine.object.PixelCoordinateObject;
 
 import javax.swing.*;
 import java.awt.*;
 
 /**
  * @author wysha
+ * @see GraphicalObject
+ * @see PixelCoordinateObject
  */
 public class ImageObject extends PixelCoordinateObject implements GraphicalObject {
 

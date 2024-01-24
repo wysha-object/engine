@@ -1,8 +1,8 @@
-package engine.core;
+package wysha.engine.core;
 
-import engine.object.CanBeOverlappedObject;
-import engine.object.GraphicalObject;
-import engine.object.OverlappingListenerObject;
+import wysha.engine.object.CanBeOverlappedObject;
+import wysha.engine.object.GraphicalObject;
+import wysha.engine.object.OverlappingListenerObject;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,11 +32,11 @@ public class Stage {
      */
     private int jFrameY;
     /**
-     * 显示区域宽度
+     * 显示区域横向长度
      */
     private int jFrameWidth;
     /**
-     * 显示区域长度
+     * 显示区域纵向长度
      */
     private int jFrameHeight;
     /**
@@ -48,11 +48,11 @@ public class Stage {
      */
     private int backgroundY;
     /**
-     * 背景宽度
+     * 背景横向长度
      */
     private int backgroundWidth;
     /**
-     * 背景长度
+     * 背景纵向长度
      */
     private int backgroundHeight;
     /**
@@ -111,8 +111,8 @@ public class Stage {
 
     /**
      * @param url          背景图片background路径
-     * @param jFrameWidth  显示区域jFrame宽度
-     * @param jFrameHeight 显示区域jFrame长度
+     * @param jFrameWidth  显示区域jFrame横向长度
+     * @param jFrameHeight 显示区域jFrame纵向长度
      */
     Stage(String url, int jFrameWidth, int jFrameHeight) {
         jFrame.setContentPane(contentPane);

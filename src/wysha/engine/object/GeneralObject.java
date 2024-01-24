@@ -1,6 +1,6 @@
-package engine.object;
+package wysha.engine.object;
 
-import engine.informationPacket.PlanarInformationPacket;
+import wysha.engine.informationPacket.PlanarInformationPacket;
 
 /**
  * @author wysha

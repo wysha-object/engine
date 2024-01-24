@@ -1,7 +1,11 @@
-package engine.informationPacket;
+package wysha.engine.informationPacket;
+
+import wysha.engine.core.Stage;
 
 /**
  * @author wysha
+ * @see Stage
+ * @see PlanarInformationPacket
  */
 public class PixelCoordinateInformationPacket extends PlanarInformationPacket {
 

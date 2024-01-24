@@ -1,6 +1,6 @@
-package engine.object;
+package wysha.engine.object;
 
-import engine.informationPacket.PixelCoordinateInformationPacket;
+import wysha.engine.informationPacket.PixelCoordinateInformationPacket;
 
 /**
  * @author wysha

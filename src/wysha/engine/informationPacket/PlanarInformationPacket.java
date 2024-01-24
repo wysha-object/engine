@@ -1,6 +1,6 @@
-package engine.informationPacket;
+package wysha.engine.informationPacket;
 
-import engine.core.Stage;
+import wysha.engine.core.Stage;
 
 /**
  * @author wysha
@@ -8,12 +8,12 @@ import engine.core.Stage;
  */
 public class PlanarInformationPacket {
     /**
-     * 宽度
+     * 横向长度
      */
     private int width;
 
     /**
-     * 高度
+     * 纵向长度
      */
     private int height;
 

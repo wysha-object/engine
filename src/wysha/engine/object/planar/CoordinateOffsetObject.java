@@ -1,14 +1,16 @@
-package engine.object.planar;
+package wysha.engine.object.planar;
 
-import engine.core.Stage;
-import engine.informationPacket.PlanarInformationPacket;
-import engine.object.GeneralObject;
-import engine.object.GraphicalObject;
+import wysha.engine.core.Stage;
+import wysha.engine.informationPacket.PlanarInformationPacket;
+import wysha.engine.object.GeneralObject;
+import wysha.engine.object.GraphicalObject;
 
 import java.awt.*;
 
 /**
  * @author wysha
+ * @see GraphicalObject
+ * @see GeneralObject
  */
 public class CoordinateOffsetObject extends GeneralObject implements GraphicalObject {
     private Image image;
@@ -72,7 +74,7 @@ public class CoordinateOffsetObject extends GeneralObject implements GraphicalOb
     }
 
     /**
-     * 控制是否相对于所属{@link engine.core.Stage}实例的显示区域进行坐标偏移<br/>
+     * 控制是否相对于所属{@link Stage}实例的显示区域进行坐标偏移<br/>
      * &emsp;为真则相对于显示区域<br/>
      * &emsp;为假则相对于背景<br/>
      */
@@ -133,7 +135,7 @@ public class CoordinateOffsetObject extends GeneralObject implements GraphicalOb
     }
 
     /**
-     * @param targetAudienceIsJFrame 控制是否相对于所属{@link engine.core.Stage}实例的显示区域进行坐标偏移<br/>
+     * @param targetAudienceIsJFrame 控制是否相对于所属{@link Stage}实例的显示区域进行坐标偏移<br/>
      *                               &emsp;为真则相对于显示区域<br/>
      *                               &emsp;为假则相对于背景
      * @param isUP 控制是否相对于相对对象上端坐标偏移<br/>
@@ -144,7 +146,7 @@ public class CoordinateOffsetObject extends GeneralObject implements GraphicalOb
      *               &emsp;为真则是<br/>
      *               &emsp;为假则否
      * @param lateralOffset 横向偏移量
-     * @see engine.core.Stage
+     * @see Stage
      */
     protected CoordinateOffsetObject(
             PlanarInformationPacket planarInformationPacket,
