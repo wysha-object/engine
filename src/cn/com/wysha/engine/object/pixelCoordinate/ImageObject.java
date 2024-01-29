@@ -1,8 +1,8 @@
-package wysha.engine.object.pixelCoordinate;
+package cn.com.wysha.engine.object.pixelCoordinate;
 
-import wysha.engine.informationPacket.PixelCoordinateInformationPacket;
-import wysha.engine.object.GraphicalObject;
-import wysha.engine.object.PixelCoordinateObject;
+import cn.com.wysha.engine.informationPacket.PixelCoordinateInformationPacket;
+import cn.com.wysha.engine.object.GraphicalObject;
+import cn.com.wysha.engine.object.PixelCoordinateObject;
 
 import javax.swing.*;
 import java.awt.*;

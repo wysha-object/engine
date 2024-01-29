@@ -1,4 +1,4 @@
-package wysha.engine.core;
+package cn.com.wysha.engine.core;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

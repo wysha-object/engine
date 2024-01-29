@@ -1,6 +1,6 @@
-package wysha.engine.informationPacket;
+package cn.com.wysha.engine.informationPacket;
 
-import wysha.engine.core.Stage;
+import cn.com.wysha.engine.core.Stage;
 
 /**
  * @author wysha

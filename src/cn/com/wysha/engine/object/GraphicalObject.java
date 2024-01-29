@@ -1,9 +1,16 @@
-package wysha.engine.object;
+package cn.com.wysha.engine.object;
+
+import java.awt.*;
 
 /**
  * @author wysha
  */
-public interface CanBeOverlappedObject {
+public interface GraphicalObject {
+    /**
+     * 获取对象图片
+     * @return 对象图片
+     */
+    Image getImage();
     /**
      * 获取横坐标
      * @return 横坐标

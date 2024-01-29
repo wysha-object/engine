@@ -1,8 +1,8 @@
-package wysha.engine.core;
+package cn.com.wysha.engine.core;
 
-import wysha.engine.object.CanBeOverlappedObject;
-import wysha.engine.object.GraphicalObject;
-import wysha.engine.object.OverlappingListenerObject;
+import cn.com.wysha.engine.object.GraphicalObject;
+import cn.com.wysha.engine.object.CanBeOverlappedObject;
+import cn.com.wysha.engine.object.OverlappingListenerObject;
 
 import javax.swing.*;
 import java.awt.*;

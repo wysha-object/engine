@@ -1,9 +1,9 @@
-package wysha.engine.object.planar;
+package cn.com.wysha.engine.object.planar;
 
-import wysha.engine.core.Stage;
-import wysha.engine.informationPacket.PlanarInformationPacket;
-import wysha.engine.object.GeneralObject;
-import wysha.engine.object.GraphicalObject;
+import cn.com.wysha.engine.core.Stage;
+import cn.com.wysha.engine.informationPacket.PlanarInformationPacket;
+import cn.com.wysha.engine.object.GeneralObject;
+import cn.com.wysha.engine.object.GraphicalObject;
 
 import java.awt.*;
 
